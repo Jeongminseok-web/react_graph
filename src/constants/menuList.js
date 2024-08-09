@@ -1,4 +1,4 @@
-import { Icons } from '../../assets/icons';
+import { Icons } from '..//assets/icons';
 
 export const MENU_LISTS = [
   {
@@ -51,10 +51,6 @@ export const routes = [
     element: '',
   },
   {
-    path: '/dashboard',
-    element: '',
-  },
-  {
     path: '/leaderboard',
     element: '',
   },
@@ -72,6 +68,10 @@ export const routes = [
   },
   {
     path: '/settings',
+    element: '',
+  },
+  {
+    path: '/signout',
     element: '',
   },
 ];
